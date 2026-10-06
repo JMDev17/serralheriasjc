@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2}.t3{stroke-width:3}.d{stroke-dasharray:4 4}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M30 210h340"/>
+<rect x="60" y="50" width="200" height="160"/>
+<path d="M60 62h200M60 198h200"/>
+<path class="t1" d="M76 62v136M92 62v136M108 62v136M124 62v136M140 62v136M156 62v136M172 62v136M188 62v136M204 62v136M220 62v136M236 62v136M252 62v136"/>
+<path class="t3" d="M300 210V44"/>
+<path class="c d" d="M304 206Q306 110 360 52"/>
+<path class="c t3" d="M300 50h62"/>
+<path class="c" d="M352 50l10 0M354 44l8 6-8 6"/>
+<path class="c t1" d="M60 228h200M60 224v8M260 224v8M44 50v160M40 50h8M40 210h8"/>
+<text x="156" y="244">L</text><text x="26" y="134">H</text>
+<text x="290" y="234">CORTE</text>
+<text x="60" y="36">PORTÃO BASCULANTE — VISTA</text>
+</svg>

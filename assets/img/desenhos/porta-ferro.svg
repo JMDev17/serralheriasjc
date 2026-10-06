@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t3{stroke-width:3}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M20 225h360"/>
+<rect class="t3" x="130" y="30" width="140" height="195"/>
+<rect x="145" y="45" width="110" height="70"/>
+<rect x="145" y="130" width="110" height="80"/>
+<path class="t1" d="M160 45v70M175 45v70M190 45v70M205 45v70M220 45v70M235 45v70"/>
+<path class="c t3" d="M248 156v16"/>
+<path class="t3" d="M130 60h-6M130 190h-6"/>
+<path class="c t1" d="M130 240h140M130 236v8M270 236v8"/>
+<text x="130" y="20">PORTA DE FERRO</text>
+</svg>

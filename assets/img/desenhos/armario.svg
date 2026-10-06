@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2.5}.t3{stroke-width:3}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M20 225h360"/>
+<rect class="t2" x="120" y="30" width="160" height="185"/>
+<path d="M200 30v185"/>
+<path class="c t3" d="M190 110v24M210 110v24"/>
+<path class="t1" d="M135 45h50M135 52h50M135 59h50M215 45h50M215 52h50M215 59h50"/>
+<path class="t3" d="M126 215v10M274 215v10"/>
+<path class="c t1" d="M296 30v185M292 30h8M292 215h8"/>
+<text x="120" y="20">ARMÁRIO DE FERRO</text>
+</svg>

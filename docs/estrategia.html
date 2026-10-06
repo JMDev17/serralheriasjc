@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Estratégia do site — Serralheria SJC</title>
+<style>
+  :root{--ink:#111314;--mut:#5d6368;--line:#dcd8d0;--bg:#f4f2ed;--cu:#a44e1f}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  main{max-width:1100px;margin:0 auto;padding:32px 16px 96px}
+  h1{font-size:2rem;line-height:1.15;margin:0 0 8px}
+  h2{margin:56px 0 12px;padding-top:16px;border-top:2px solid var(--ink);font-size:1.4rem}
+  h3{margin:28px 0 8px;font-size:1.1rem}
+  p,li{max-width:75ch}
+  code{font:13px ui-monospace,Consolas,monospace;background:#e8e4dc;padding:1px 5px;border-radius:3px}
+  .wrap{overflow-x:auto;margin:12px 0}
+  table{border-collapse:collapse;width:100%;font-size:14px;background:#fff}
+  th,td{text-align:left;vertical-align:top;padding:8px 10px;border:1px solid var(--line)}
+  th{background:#1b1e20;color:#fff;font-weight:600}
+  .tag{display:inline-block;font:12px ui-monospace,monospace;padding:1px 6px;border:1px solid var(--cu);color:var(--cu);border-radius:3px}
+  .note{border-left:4px solid var(--cu);background:#fff;padding:12px 16px;margin:16px 0}
+  .muted{color:var(--mut)}
+</style>
+</head>
+<body>
+<main>
+<h1>Serralheria em São José dos Campos — estratégia do site</h1>
+<p class="muted">Documento interno (não publicar). Etapas 1 a 4: arquitetura, SEO, design system e wireframes. Stack: HTML, CSS e JavaScript puros — sem frameworks, sem build.</p>
+
+<h2>0. O que foi aproveitado da referência (eletricacampos.com.br)</h2>
+<ul>
+  <li><b>Aproveitado:</b> hub de serviços → hubs por categoria → páginas de serviço; navegação rastreável em HTML; CTA recorrente de orçamento; rodapé com mapa de links; blog ligado às páginas comerciais.</li>
+  <li><b>Não aproveitado:</b> volume de páginas quase-duplicadas (ex.: <i>instalação de tomadas</i> + <i>troca de tomadas</i>), páginas de cidade/bairro por troca de nome, selos de credenciais e "atendimento 24h" sem prova, CTA de WhatsApp repetido 5+ vezes na home.</li>
+  <li><b>Diferença estrutural:</b> lá os serviços são agrupados por segmento de cliente; aqui são agrupados por <b>objeto fabricado</b> (portão, estrutura, cobertura…), porque é assim que o cliente de serralheria formula o pedido ("preciso de um portão"), e o segmento (residencial/comercial) vira seção dentro da página.</li>
+</ul>
+
+<h2>1. Arquitetura final (Etapa 1)</h2>
+<p>Regra aplicada: <b>uma intenção de busca suficientemente diferente = uma página</b>. Sinônimos e variações de produto/material viram seções dentro da página mais forte.</p>
+
+<div class="wrap"><table>
+<thead><tr><th>URL</th><th>Cluster</th><th>Intenção primária</th><th>Termos secundários absorvidos</th><th>Estágio</th></tr></thead>
+<tbody>
+<tr><td><code>/</code></td><td>—</td><td>serralheria em São José dos Campos</td><td>serralheria SJC, serralheiro, serralheria perto de mim</td><td>Busca de fornecedor</td></tr>
+<tr><td><code>/servicos/</code></td><td>—</td><td>serviços de serralheria (índice)</td><td>o que uma serralheria faz</td><td>Exploração</td></tr>
+<tr><td><code>/portoes/</code></td><td>Portões</td><td>portão de ferro / portão sob medida</td><td>fabricação de portões, portão de garagem, residencial, comercial, galvanizado, social, de entrada</td><td>Comercial (escolha de tipo)</td></tr>
+<tr><td><code>/portoes/portao-basculante/</code></td><td>Portões</td><td>portão basculante</td><td>basculante de garagem, basculante automático, contrapeso</td><td>Comercial</td></tr>
+<tr><td><code>/portoes/portao-de-correr/</code></td><td>Portões</td><td>portão de correr</td><td>portão deslizante, portão em balanço, trilho</td><td>Comercial</td></tr>
+<tr><td><code>/portoes/portao-pivotante/</code> <span class="tag">nova</span></td><td>Portões</td><td>portão pivotante</td><td>portão de abrir, portão de duas folhas</td><td>Comercial</td></tr>
+<tr><td><code>/portoes/portao-automatico/</code></td><td>Portões</td><td>portão automático</td><td>portão eletrônico, automatização de portão, instalação de portão automático, motor de portão, manual x automático</td><td>Comercial / transacional</td></tr>
+<tr><td><code>/portoes/portao-industrial/</code></td><td>Portões</td><td>portão industrial</td><td>portão para galpão, portão comercial de grande vão</td><td>Comercial B2B</td></tr>
+<tr><td><code>/portoes/porta-de-enrolar-automatica/</code></td><td>Portões</td><td>porta de enrolar automática</td><td>porta de aço de enrolar, porta de loja, lâmina transvision</td><td>Comercial B2B</td></tr>
+<tr><td><code>/estruturas-metalicas/</code></td><td>Estruturas</td><td>estrutura metálica</td><td>fabricação de estruturas metálicas, estrutura metálica residencial</td><td>Comercial</td></tr>
+<tr><td><code>/estruturas-metalicas/galpao-metalico/</code></td><td>Estruturas</td><td>galpão metálico</td><td>estrutura metálica para galpão, galpão pré-moldado x metálico</td><td>Comercial B2B</td></tr>
+<tr><td><code>/estruturas-metalicas/mezanino-metalico/</code></td><td>Estruturas</td><td>mezanino metálico</td><td>mezanino de ferro, mezanino x laje, piso de mezanino</td><td>Comercial</td></tr>
+<tr><td><code>/estruturas-metalicas/estrutura-metalica-para-telhado/</code></td><td>Estruturas</td><td>estrutura metálica para telhado</td><td>tesoura metálica, telhado com estrutura de ferro, troca de madeira por metálica</td><td>Comercial</td></tr>
+<tr><td><code>/estruturas-metalicas/pergolado-metalico/</code></td><td>Estruturas</td><td>pergolado metálico</td><td>pergolado de ferro, pergolado com vidro/policarbonato</td><td>Comercial</td></tr>
+<tr><td><code>/coberturas/</code></td><td>Coberturas</td><td>cobertura metálica</td><td>cobertura em ferro, cobertura metálica residencial, tipos de telha</td><td>Comercial</td></tr>
+<tr><td><code>/coberturas/cobertura-de-policarbonato/</code></td><td>Coberturas</td><td>cobertura de policarbonato</td><td>alveolar x compacto, toldo de policarbonato</td><td>Comercial</td></tr>
+<tr><td><code>/coberturas/cobertura-para-garagem/</code></td><td>Coberturas</td><td>cobertura para garagem</td><td>cobertura metálica para garagem, de ferro para garagem</td><td>Comercial</td></tr>
+<tr><td><code>/corrimao-guarda-corpo/</code></td><td>Proteção</td><td>corrimão e guarda-corpo (diferença/escolha)</td><td>qual a diferença entre corrimão e guarda-corpo</td><td>Exploração → comercial</td></tr>
+<tr><td><code>/corrimao-guarda-corpo/corrimao-de-ferro/</code></td><td>Proteção</td><td>corrimão de ferro</td><td>corrimão metálico, para escada, fabricação de corrimão</td><td>Comercial</td></tr>
+<tr><td><code>/corrimao-guarda-corpo/guarda-corpo-metalico/</code></td><td>Proteção</td><td>guarda-corpo metálico</td><td>guarda-corpo de ferro, para escada, para sacada/mezanino, fabricação</td><td>Comercial</td></tr>
+<tr><td><code>/escada-metalica/</code></td><td>Escadas</td><td>escada metálica</td><td>escada de ferro, caracol, escada em L, viga central</td><td>Comercial</td></tr>
+<tr><td><code>/grades-esquadrias/</code></td><td>Grades/esquadrias</td><td>grades e esquadrias de ferro (índice)</td><td>serralheria de esquadrias</td><td>Exploração</td></tr>
+<tr><td><code>/grades-esquadrias/grades-de-ferro/</code></td><td>Grades/esquadrias</td><td>grades de ferro</td><td>fabricação de grades, grade de janela, grade de proteção</td><td>Comercial</td></tr>
+<tr><td><code>/grades-esquadrias/porta-de-ferro/</code></td><td>Grades/esquadrias</td><td>porta de ferro</td><td>porta de aço, porta de chapa, porta pivotante de ferro</td><td>Comercial</td></tr>
+<tr><td><code>/grades-esquadrias/esquadrias-de-ferro/</code></td><td>Grades/esquadrias</td><td>esquadrias de ferro</td><td>janela de ferro, vitrô, caixilho</td><td>Comercial</td></tr>
+<tr><td><code>/moveis-metalicos/</code></td><td>Móveis</td><td>móveis metálicos sob medida</td><td>móveis de ferro, estilo industrial, bancadas, bases de mesa</td><td>Comercial</td></tr>
+<tr><td><code>/moveis-metalicos/armario-de-ferro/</code></td><td>Móveis</td><td>armário de ferro sob medida</td><td>armário metálico, armário industrial</td><td>Comercial</td></tr>
+<tr><td><code>/moveis-metalicos/estantes-e-prateleiras/</code> <span class="tag">consolidada</span></td><td>Móveis</td><td>estante / prateleira de ferro</td><td>prateleira de ferro, estante de ferro, mão-francesa, estante industrial</td><td>Comercial</td></tr>
+<tr><td><code>/solda/</code></td><td>Solda</td><td>serviço de solda</td><td>soldagem em geral, solda em portão, reparo em estrutura</td><td>Transacional</td></tr>
+<tr><td><code>/projetos/</code></td><td>Prova</td><td>projetos realizados</td><td>—</td><td>Validação (noindex enquanto vazio)</td></tr>
+<tr><td><code>/sobre/</code>, <code>/contato/</code></td><td>Institucional</td><td>confiança / orçamento</td><td>—</td><td>Decisão</td></tr>
+<tr><td><code>/blog/</code> + 8 artigos</td><td>Suporte</td><td>comparações, problemas, custo, decisão</td><td>ver seção 1.3</td><td>Pesquisa → comercial</td></tr>
+<tr><td><code>/calculadora-portao/</code></td><td>Ferramenta</td><td>configurador de portão (futuro: calculadora)</td><td>—</td><td>noindex até existirem dados reais</td></tr>
+<tr><td><code>/politica-de-privacidade/</code>, <code>/404.html</code></td><td>Técnico</td><td>—</td><td>—</td><td>—</td></tr>
+</tbody></table></div>
+
+<h3>1.1 Consolidações feitas (anticanibalização)</h3>
+<div class="wrap"><table>
+<thead><tr><th>Proposta original</th><th>Decisão</th><th>Motivo</th></tr></thead>
+<tbody>
+<tr><td><code>/coberturas/cobertura-metalica/</code></td><td>Fundida no hub <code>/coberturas/</code> (301)</td><td>"cobertura metálica" é o termo-cabeça do próprio hub. Duas URLs disputariam exatamente a mesma consulta.</td></tr>
+<tr><td><code>/escadas/</code> + <code>/escadas/escada-metalica/</code></td><td>Uma única página <code>/escada-metalica/</code> (301 das duas)</td><td>Hub com um único filho é uma página fina que repete o filho. "escada de ferro" e "escada metálica" têm a mesma intenção.</td></tr>
+<tr><td><code>/prateleira-de-ferro/</code> + <code>/estante-de-ferro/</code></td><td><code>/moveis-metalicos/estantes-e-prateleiras/</code> (301 das duas)</td><td>Mesmo cliente, mesmo processo de orçamento, resultados de busca muito sobrepostos. Separar quando houver volume e projetos que justifiquem.</td></tr>
+<tr><td>Portão automático / eletrônico / automatização / instalação</td><td>Uma página: <code>/portoes/portao-automatico/</code></td><td>Mesmo problema do usuário (abrir sem descer do carro); diferem só no ponto de partida (portão novo x existente), tratado como seção.</td></tr>
+<tr><td>Portão deslizante</td><td>Dentro de <code>/portao-de-correr/</code></td><td>Sinônimo regional.</td></tr>
+<tr><td>Portão de ferro, sob medida, de garagem, residencial, comercial, fabricação</td><td>Hub <code>/portoes/</code></td><td>São modificadores genéricos; o hub responde "que portão eu faço?" e encaminha para o tipo.</td></tr>
+<tr><td>Portão galvanizado</td><td>Seção no hub + artigo <code>/blog/portao-de-ferro-ou-galvanizado/</code></td><td>Galvanização é acabamento aplicável a qualquer tipo; a dúvida real é comparativa (ferro x galvanizado).</td></tr>
+<tr><td>Portão social / de entrada de ferro</td><td>Seção no hub <code>/portoes/</code></td><td>Candidata a página própria se houver projetos e demanda (monitorar no Search Console).</td></tr>
+<tr><td>Mezanino de ferro; mezanino x alternativas</td><td>Dentro de <code>/mezanino-metalico/</code></td><td>Mesmo produto. A comparação faz parte da decisão e fica na própria money page.</td></tr>
+<tr><td>Porta de aço</td><td>Dentro de <code>/porta-de-ferro/</code> (porta de aço de enrolar → <code>/porta-de-enrolar-automatica/</code>)</td><td>"Porta de aço" é ambígua: a página de porta de ferro desambigua e linka a de enrolar.</td></tr>
+<tr><td>Janela de ferro</td><td>Dentro de <code>/esquadrias-de-ferro/</code></td><td>Janela é o principal tipo de esquadria.</td></tr>
+<tr><td>Fachada metálica</td><td>Não criada</td><td><span class="tag">validar</span> Confirmar com a empresa se executa fachadas (brise, ACM, chapa perfurada). Se sim, criar <code>/estruturas-metalicas/fachada-metalica/</code>.</td></tr>
+<tr><td>Páginas de bairro</td><td>Não criadas</td><td>Bairros entram via projetos reais (<code>/projetos/tipo-bairro/</code>) — prova local real em vez de páginas trocando nome.</td></tr>
+<tr><td>"Quanto custa automatizar", "quanto custa cobertura para garagem", "qual cobertura usar na garagem", "qual material para mezanino"</td><td>Seções nas money pages</td><td>Sem dados reais de preço, artigos separados seriam finos e disputariam com a money page. Quando houver dados, publicar estudos (seção 1.4).</td></tr>
+</tbody></table></div>
+
+<h3>1.2 Conflitos de canibalização a monitorar</h3>
+<ul>
+  <li><b>/portoes/ x /portoes/portao-basculante/</b> para "portão de garagem": o hub foca em escolha de tipo; a basculante não usa "portão de garagem" no title.</li>
+  <li><b>/coberturas/ x /coberturas/cobertura-para-garagem/</b>: "cobertura metálica para garagem" fica com a página de garagem; o hub linka com essa âncora.</li>
+  <li><b>/portao-industrial/ x /porta-de-enrolar-automatica/</b>: industrial = vãos de galpão/portaria; porta de enrolar = fachada de loja. Ambas linkam uma para a outra com explicação.</li>
+  <li><b>/blog/portao-basculante-ou-de-correr/ x money pages</b>: o artigo é comparativo e não tenta ranquear por "portão basculante"; linka as duas money pages.</li>
+  <li><b>/estruturas-metalicas/pergolado-metalico/ x /coberturas/</b>: pergolado = estrutura vazada/decorativa; cobertura = proteção total contra chuva. Explicado nas duas.</li>
+</ul>
+
+<h3>1.3 Blog: cada artigo tem função e destino</h3>
+<div class="wrap"><table>
+<thead><tr><th>Artigo</th><th>Tipo</th><th>Aponta para</th></tr></thead>
+<tbody>
+<tr><td><code>/blog/portao-basculante-ou-de-correr/</code></td><td>Comparação</td><td>Basculante, De correr, Portões</td></tr>
+<tr><td><code>/blog/portao-de-ferro-ou-galvanizado/</code></td><td>Comparação</td><td>Portões, Ferrugem</td></tr>
+<tr><td><code>/blog/cobertura-metalica-ou-policarbonato/</code></td><td>Comparação</td><td>Coberturas, Policarbonato, Garagem</td></tr>
+<tr><td><code>/blog/portao-automatico-parou-de-funcionar/</code></td><td>Problema</td><td>Portão automático, Solda</td></tr>
+<tr><td><code>/blog/portao-pesado-para-abrir/</code></td><td>Problema</td><td>Basculante, De correr, Solda</td></tr>
+<tr><td><code>/blog/ferrugem-em-portao-de-ferro/</code></td><td>Problema</td><td>Portões, Solda, Ferro x galvanizado</td></tr>
+<tr><td><code>/blog/quanto-custa-um-portao/</code></td><td>Comercial (fatores, sem preços inventados)</td><td>Portões, Automático, Calculadora futura</td></tr>
+<tr><td><code>/blog/portao-para-garagem-pequena/</code></td><td>Decisão</td><td>De correr, Pivotante, Basculante</td></tr>
+</tbody></table></div>
+
+<h3>1.4 Estruturas preparadas para o futuro (sem dados inventados)</h3>
+<ul>
+  <li><b>Projetos:</b> <code>/projetos/_modelo-projeto.html</code> (noindex) com campos: fotos, bairro, serviço, problema, solução, materiais, dimensões, duração, resultado. URL final: <code>/projetos/{servico}-{bairro}/</code>. Ao publicar o 1º projeto, remover o noindex de <code>/projetos/</code>.</li>
+  <li><b>Estudos de dados:</b> <code>/dados/_modelo-estudo.html</code> + <code>assets/js/estudo.js</code> lê um JSON de orçamentos reais (tipo, largura, altura, material, automatização, faixa, prazo, região) e gera tabelas/medianas. Nenhum dado incluso.</li>
+  <li><b>Calculadora:</b> <code>/calculadora-portao/</code> já coleta as especificações e envia como pedido de orçamento. A função <code>estimarPreco()</code> em <code>assets/js/calculadora.js</code> retorna <code>null</code> até receber a tabela real.</li>
+</ul>
+
+<h3>1.5 Links internos principais</h3>
+<ul>
+  <li>Home → 6 hubs + seção "O que você precisa fabricar?" → money pages específicas.</li>
+  <li>Hub → todos os filhos (cards) + comparação entre filhos.</li>
+  <li>Money page → hub pai (breadcrumb), irmãs com contexto ("se você não tem espaço lateral, veja o basculante"), artigo de blog relevante, contato com serviço pré-selecionado.</li>
+  <li>Blog → money pages correspondentes no texto + bloco "serviço relacionado".</li>
+  <li>Rodapé: mapa completo dos clusters (navegação rastreável).</li>
+</ul>
+
+<h2>2. SEO on-page (Etapa 2)</h2>
+<p>Title, description, H1 e estrutura de H2/H3 estão implementados em cada arquivo HTML. Padrão de título: <i>Serviço em São José dos Campos | Diferencial</i> — a cidade aparece no title e no H1 das money pages, e no conteúdo só onde é natural (área atendida, clima, projetos).</p>
+<p>Estrutura padrão de money page:</p>
+<ol>
+  <li>H1 + resposta direta (o que é, para quem serve) — formato citável por IA</li>
+  <li>Ficha técnica rápida (aplicação, materiais, acionamento)</li>
+  <li>H2 Quando é a melhor escolha / quando não é</li>
+  <li>H2 Tipos e variações (H3 por variação)</li>
+  <li>H2 Comparação com a alternativa mais próxima (tabela)</li>
+  <li>H2 O que define o orçamento (fatores, sem preços)</li>
+  <li>H2 Como funciona: da medição à instalação</li>
+  <li>H2 Manutenção e cuidados</li>
+  <li>H2 Perguntas frequentes (visíveis, <b>sem</b> FAQPage schema)</li>
+  <li>Relacionados + CTA com formulário pré-preenchido</li>
+</ol>
+<p>Schema usado: <code>LocalBusiness</code> (home/contato/sobre — apenas campos preenchidos), <code>BreadcrumbList</code> (todas as internas), <code>Service</code> nas money pages, <code>Article</code> nos posts. Sem FAQ schema.</p>
+
+<h2>3. Design system (Etapa 3)</h2>
+<ul>
+  <li><b>Conceito:</b> "folha de fabricação" — o site se comporta como um desenho técnico: linhas finas, cotas, numeração de seções, anotações em fonte mono. Metal e precisão sem faíscas.</li>
+  <li><b>Cores:</b> Grafite <code>#0F1112</code> · Grafite 2 <code>#191C1E</code> · Aço <code>#8B9298</code> · Off-white <code>#F3F1EC</code> · Papel 2 <code>#E8E4DC</code> · Cobre <code>#C8642E</code> (sobre escuro) / <code>#A3491A</code> (texto sobre claro, contraste ≥ 4.5:1).</li>
+  <li><b>Tipografia:</b> Archivo variável (eixo de largura): títulos em 112–125% de largura, peso 650–800, entreletra negativa; corpo em 100%, 400. IBM Plex Mono 500 para rótulos, cotas e numeração.</li>
+  <li><b>Escala fluida:</b> 14 · 16 · 18 · 22 · 28 · 36 · 48 · 64 · 88 px (via <code>clamp()</code>).</li>
+  <li><b>Grid:</b> 12 colunas, máx. 1320px, margens 16px (mobile) / 32px / 48px.</li>
+  <li><b>Espaço:</b> base 4px — 4, 8, 12, 16, 24, 32, 48, 64, 96, 128.</li>
+  <li><b>Botões:</b> primário cobre (texto grafite), secundário contorno, link com seta. Altura mínima 48px.</li>
+  <li><b>Cards:</b> sem sombra; borda fina + marcas de canto; hover desenha linha cobre.</li>
+  <li><b>Formulário:</b> rótulos visíveis, campos 52px, teclado numérico para WhatsApp, validação acessível.</li>
+  <li><b>Motion:</b> só transform/opacity, 200–600ms, desenho de traço no SVG do hero; tudo desativado com <code>prefers-reduced-motion</code>.</li>
+</ul>
+
+<h2>4. Wireframes (Etapa 4)</h2>
+<ul>
+  <li><b>Home:</b> Hero (H1, sub, CTA, desenho técnico) → faixa de fatos (sem números inventados) → Clusters (6 cards) → "O que você precisa fabricar?" (lista de necessidades) → Como trabalhamos (processo) → Comparações que ajudam a decidir → Área atendida → Blog/guia → CTA + formulário.</li>
+  <li><b>Hub:</b> Hero → cards dos tipos → tabela comparativa entre tipos → materiais/acabamentos → orçamento → FAQ → CTA.</li>
+  <li><b>Money page:</b> Breadcrumb → Hero com ficha técnica e desenho → Sumário lateral fixo (desktop) → Conteúdo → FAQ → Relacionados → CTA + formulário.</li>
+  <li><b>Projeto:</b> Hero com foto → ficha (bairro, serviço, dimensões, duração) → problema → solução → materiais → galeria → serviço relacionado → CTA.</li>
+  <li><b>Blog:</b> Breadcrumb → título, data, responsável → resposta curta → conteúdo → box do serviço relacionado → CTA.</li>
+  <li><b>Contato:</b> Formulário em destaque (mobile primeiro) → canais diretos → área atendida.</li>
+  <li><b>Mobile:</b> menu em tela cheia com clusters expandidos, barra fixa inferior discreta (Orçamento + WhatsApp) que aparece após o hero e some quando o formulário está visível.</li>
+</ul>
+
+<h2>5. Situação atual: projeto próprio (rank &amp; rent)</h2>
+<ul>
+  <li>Marca do site: <b>Serralheria Campos</b> — usada só como marca do projeto, não como razão social.</li>
+  <li>Não há empresa vinculada: o site não exibe CNPJ, razão social, endereço, telefone, e-mail, horário, equipe, avaliações, garantias nem projetos.</li>
+  <li>Canais de contato (WhatsApp, telefone, e-mail) ficam ocultos até serem definidos em <code>assets/js/config.js</code>.</li>
+  <li>O texto não afirma que o atendimento é exclusivo de São José dos Campos; a cidade aparece como local de atendimento.</li>
+  <li>JSON-LD da home usa <code>Organization</code> (nome, URL, área atendida). Quando houver empresa parceira real, pode-se migrar para <code>LocalBusiness</code> com dados verificáveis.</li>
+</ul>
+<h2>6. Antes de publicar</h2>
+<ol>
+  <li><b>Obrigatório:</b> definir <code>formEndpoint</code> (ou <code>whatsapp</code>) em <code>assets/js/config.js</code>. Sem isso o formulário não entrega pedidos.</li>
+  <li>Substituir <code>https://www.seudominio.com.br</code> pelo domínio real (HTML, <code>sitemap.xml</code>, <code>robots.txt</code>).</li>
+  <li>Criar <code>assets/img/og-default.jpg</code> (1200×630).</li>
+  <li>Enviar o <code>sitemap.xml</code> ao Google Search Console.</li>
+</ol>
+</main>
+</body>
+</html>

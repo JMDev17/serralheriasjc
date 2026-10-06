@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2.5}.t3{stroke-width:3}.d{stroke-dasharray:3 6}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M20 225h360"/>
+<path class="t3" d="M90 225V30M310 225V30"/>
+<path class="t2" d="M90 60h220M90 115h220M90 170h220M90 220h220"/>
+<path class="t1 d" d="M90 30l220 190M310 30L90 220"/>
+<rect class="c t1" x="110" y="88" width="30" height="27"/><rect class="c t1" x="150" y="96" width="50" height="19"/><rect class="c t1" x="230" y="140" width="40" height="30"/>
+<text x="90" y="20">ESTANTE — CONTRAVENTADA</text>
+</svg>

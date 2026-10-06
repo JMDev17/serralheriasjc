@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2}.t3{stroke-width:3}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t2" d="M20 220h70v-20h30v-20h30v-20h30v-20h30v-20h30v-20h30v-20h100"/>
+<path class="c t3" d="M40 160L300 30h60"/>
+<path d="M60 192l240-120"/>
+<path d="M90 135v65M150 105v55M210 75v45M270 45v35"/>
+<path class="c t1" d="M330 30v50M326 30h8M326 80h8M30 160v40M26 160h8M26 200h8"/>
+<text x="340" y="60">H</text><text x="14" y="184">H</text>
+<text x="40" y="22">CORRIMÃO — ESCADA</text>
+</svg>

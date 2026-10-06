@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2}.t3{stroke-width:3}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M20 215h360"/>
+<path d="M40 215V80L200 34l160 46v135"/>
+<rect x="90" y="100" width="220" height="115"/>
+<path d="M90 120h220M90 198h220"/>
+<path class="t2" d="M200 100v115"/>
+<path class="t1" d="M90 120l110 78M200 120l110 78M310 120L200 198M200 120L90 198"/>
+<path class="c t1" d="M90 232h220M90 228v8M310 228v8"/>
+<path class="c t2" d="M206 160h48M246 153l8 7-8 7"/>
+<text x="172" y="246">GRANDE VÃO</text>
+<text x="40" y="24">PORTÃO INDUSTRIAL</text>
+</svg>

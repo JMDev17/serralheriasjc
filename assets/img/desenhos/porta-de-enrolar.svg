@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2}.t3{stroke-width:3}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M20 215h360"/>
+<rect x="70" y="40" width="260" height="34"/>
+<circle class="c" cx="200" cy="57" r="12"/>
+<path class="c t1" d="M200 45v24M188 57h24"/>
+<path class="t3" d="M80 74v141M320 74v141"/>
+<path class="t1" d="M80 86h240M80 98h240M80 110h240M80 122h240M80 134h240M80 146h240M80 158h240M80 170h240M80 182h240M80 194h240"/>
+<path class="t2" d="M80 206h240"/>
+<path class="c t2" d="M352 190v-88M345 110l7-10 7 10"/>
+<text x="70" y="30">PORTA DE ENROLAR — LÂMINAS</text>
+<text x="338" y="208">SOBE</text>
+</svg>

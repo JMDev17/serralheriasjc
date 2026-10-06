@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round}.c{stroke:#c8642e}.t1{stroke-width:1}.t3{stroke-width:3}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M10 220h380"/>
+<path class="t3" d="M50 220V87M340 220V69"/>
+<path class="t3" d="M30 90L360 67"/>
+<circle cx="110" cy="206" r="14"/><circle cx="262" cy="206" r="14"/>
+<path d="M78 206H96M124 206H248M276 206h22v-28l-38-26H140l-34 26H78z"/>
+<path class="t1" d="M146 156v22h46v-22M200 156v22h52"/>
+<path class="c t1" d="M366 220V68M362 68h8M362 220h8"/>
+<text x="30" y="40">COBERTURA PARA GARAGEM</text>
+<text x="290" y="142">PÉ-DIREITO</text>
+</svg>

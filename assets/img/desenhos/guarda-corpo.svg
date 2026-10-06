@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t3{stroke-width:3}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t3" d="M20 200h360"/>
+<path class="t1" d="M20 206h360"/>
+<path class="t3" d="M60 200V80M340 200V80M50 80h300"/>
+<path class="t1" d="M60 96h280M80 96v104M100 96v104M120 96v104M140 96v104M160 96v104M180 96v104M200 96v104M220 96v104M240 96v104M260 96v104M280 96v104M300 96v104M320 96v104"/>
+<path class="c t1" d="M362 80v120M358 80h8M358 200h8M140 228h20M140 224v8M160 224v8"/>
+<text x="368" y="144">H</text>
+<text x="120" y="244">VÃO ENTRE BARRAS</text>
+<text x="40" y="40">GUARDA-CORPO — ELEVAÇÃO</text>
+</svg>

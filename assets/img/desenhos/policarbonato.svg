@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:.8}.t2{stroke-width:2.5}.t3{stroke-width:3}.glass{stroke:#c8642e;stroke-opacity:.35;stroke-width:9}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M10 220h380"/>
+<path class="t3" d="M60 220V97M340 220V77"/>
+<path class="glass" d="M44 100L356 76"/>
+<path class="t2" d="M36 104L364 79"/>
+<path class="t1" d="M100 99v-9M160 95v-9M220 90v-9M280 86v-9"/>
+<rect x="90" y="146" width="150" height="36"/>
+<path class="t1" d="M90 164h150M102 146v36M114 146v36M126 146v36M138 146v36M150 146v36M162 146v36M174 146v36M186 146v36M198 146v36M210 146v36M222 146v36"/>
+<path class="c" d="M90 146h150"/>
+<text x="90" y="136">CHAPA ALVEOLAR — CORTE</text>
+<text x="90" y="198">FACE COM PROTEÇÃO UV PARA CIMA</text>
+<text x="40" y="40">COBERTURA DE POLICARBONATO</text>
+</svg>

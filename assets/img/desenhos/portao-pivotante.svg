@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2}.t3{stroke-width:3}.d{stroke-dasharray:4 4}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M40 150h320"/>
+<rect x="80" y="50" width="118" height="100"/><rect x="202" y="50" width="118" height="100"/>
+<path class="t1" d="M92 60v80M104 60v80M116 60v80M128 60v80M140 60v80M152 60v80M164 60v80M176 60v80M188 60v80M214 60v80M226 60v80M238 60v80M250 60v80M262 60v80M274 60v80M286 60v80M298 60v80M310 60v80"/>
+<path class="t3" d="M76 40v115M324 40v115"/>
+<path class="t1" d="M60 180h280"/>
+<path class="t2" d="M80 180l62 52M320 180l-62 52"/>
+<path class="c d" d="M200 180A120 120 0 0 1 142 232M200 180A120 120 0 0 0 258 232"/>
+<text x="40" y="34">PORTÃO PIVOTANTE — VISTA + PLANTA</text>
+<text x="166" y="244">ÁREA DE GIRO</text>
+</svg>

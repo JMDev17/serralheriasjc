@@ -1,0 +1,6 @@
+# Netlify / Cloudflare Pages
+/coberturas/cobertura-metalica/            /coberturas/                               301
+/escadas/escada-metalica/                  /escada-metalica/                          301
+/escadas/                                  /escada-metalica/                          301
+/moveis-metalicos/prateleira-de-ferro/     /moveis-metalicos/estantes-e-prateleiras/  301
+/moveis-metalicos/estante-de-ferro/        /moveis-metalicos/estantes-e-prateleiras/  301

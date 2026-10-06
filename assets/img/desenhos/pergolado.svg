@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2}.t3{stroke-width:3}.d{stroke-dasharray:3 5}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M10 220h380"/>
+<path class="t3" d="M60 220V92M340 220V92"/>
+<path class="t2" d="M40 80h320M40 92h320"/>
+<path d="M70 66v40M100 66v40M130 66v40M160 66v40M190 66v40M220 66v40M250 66v40M280 66v40M310 66v40M340 66v40"/>
+<path class="t1" d="M64 66h282"/>
+<path class="c d t1" d="M90 220l-20-114M150 220l-20-114M210 220l-20-114M270 220l-20-114M330 220l-20-114"/>
+<text x="150" y="160">LUZ / SOMBRA</text>
+<text x="40" y="40">PERGOLADO METÁLICO</text>
+</svg>

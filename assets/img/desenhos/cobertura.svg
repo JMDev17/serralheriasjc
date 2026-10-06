@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t3{stroke-width:3}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M10 220h380"/>
+<path class="t3" d="M60 220V93M340 220V66"/>
+<path class="t3" d="M36 96L364 64"/>
+<path class="t1" d="M36 104L364 72M90 98v-6M130 94v-6M170 90v-6M210 86v-6M250 82v-6M290 78v-6M330 74v-6"/>
+<path class="t1" d="M60 128l28-30M340 98l-26-28"/>
+<path class="c" d="M300 48l-62 6M246 48l-8 6 8 6"/>
+<text x="250" y="40">CAIMENTO</text>
+<text x="36" y="40">COBERTURA METÁLICA</text>
+</svg>

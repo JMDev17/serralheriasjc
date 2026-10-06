@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2}.t3{stroke-width:3}.d{stroke-dasharray:4 4}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M20 220h360M20 30h360"/>
+<path class="t3" d="M150 220V122M330 220V122"/>
+<rect class="t2" x="100" y="110" width="260" height="12"/>
+<path class="t1" d="M100 116h260"/>
+<path class="t1" d="M220 110V70M240 110V70M260 110V70M280 110V70M300 110V70M320 110V70M340 110V70M360 110V70M210 70h150"/>
+<path d="M28 220h14v-14h14v-14h14v-14h14v-14h14v-14h14v-14h14v-14"/>
+<path class="t1" d="M28 220L112 122"/>
+<path class="c t1" d="M375 110v110M371 110h8M371 220h8"/>
+<path class="c d t1" d="M156 168h168"/>
+<text x="210" y="186">ÁREA LIVRE</text>
+<text x="40" y="22">MEZANINO — CORTE</text>
+<text x="220" y="62">GUARDA-CORPO</text>
+</svg>

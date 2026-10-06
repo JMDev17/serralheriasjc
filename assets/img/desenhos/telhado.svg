@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2.5}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t2" d="M30 190L200 70l170 120zM30 190h340"/>
+<path class="t1" d="M200 70v120M115 190v-60M285 190v-60M115 130l85 60M285 130l-85 60M72 190v-30M328 190v-30M72 160l43 30M328 160l-43 30"/>
+<path class="c t1" d="M18 194L200 64l182 130"/>
+<path class="c t1" d="M30 214h340M30 210v8M370 210v8"/>
+<path class="t1" d="M250 104h34v-24"/>
+<text x="290" y="96">i %</text>
+<text x="186" y="230">VÃO</text>
+<text x="30" y="40">TESOURA METÁLICA</text>
+</svg>

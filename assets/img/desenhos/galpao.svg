@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2.5}.t3{stroke-width:3}.d{stroke-dasharray:3 5}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M10 220h380"/>
+<path class="t3" d="M40 220V100M360 220V100"/>
+<path class="t2" d="M40 100L200 40l160 60"/>
+<path d="M40 114L200 58l160 56"/>
+<path class="t1" d="M80 100V86M120 86V71M160 72V56M240 72V56M280 86V71M320 100V86M40 114L80 86M80 100L120 71M120 86L160 56M160 72L200 40M240 72L200 40M280 86L240 56M320 100L280 71M360 114L320 86"/>
+<path class="c d t1" d="M200 58v162"/>
+<path class="c t1" d="M40 238h320M40 234v8M360 234v8"/>
+<text x="172" y="232">VÃO LIVRE</text>
+<text x="40" y="24">GALPÃO — PÓRTICO TRELIÇADO</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2}.t3{stroke-width:3}.d{stroke-dasharray:4 5}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M20 207h360"/>
+<path class="c t3" d="M30 207h340"/>
+<rect x="40" y="60" width="170" height="140"/>
+<path d="M40 72h170M40 188h170"/>
+<path class="t1" d="M54 72v116M68 72v116M82 72v116M96 72v116M110 72v116M124 72v116M138 72v116M152 72v116M166 72v116M180 72v116M194 72v116"/>
+<circle cx="70" cy="203" r="4"/><circle cx="180" cy="203" r="4"/>
+<rect class="t1 d" x="210" y="60" width="160" height="140"/>
+<path class="c t2" d="M232 130h64M286 122l10 8-10 8"/>
+<path class="t3" d="M210 40v167"/>
+<path class="c t1" d="M40 226h170M40 222v8M210 222v8M210 240h160M370 236v8"/>
+<text x="112" y="220">VÃO</text>
+<text x="244" y="236">ESPAÇO LATERAL</text>
+<text x="40" y="36">PORTÃO DE CORRER</text>
+</svg>

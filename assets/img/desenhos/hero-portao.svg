@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520">
+<style>
+*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}
+.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2}.t3{stroke-width:3.5}.g{stroke:#2a2f33;stroke-width:1}
+.d{stroke-dasharray:5 6}
+text{fill:#8b9298;stroke:none;font:11px ui-monospace,Consolas,monospace;letter-spacing:1.5px}
+.tc{fill:#c8642e}.big{font-size:13px;fill:#e8e4dc;letter-spacing:2px}
+.dr{stroke-dasharray:1;stroke-dashoffset:0}
+@media (prefers-reduced-motion:no-preference){
+ .dr{stroke-dashoffset:1;animation:d 1.8s cubic-bezier(.2,.7,.1,1) forwards}
+ .a1{animation-delay:.1s}.a2{animation-delay:.45s}.a3{animation-delay:.8s}.a4{animation-delay:1.15s}
+ .fade{opacity:0;animation:f .8s ease 1.4s forwards}
+ .slide{animation:s 5s cubic-bezier(.6,0,.2,1) 2.2s infinite alternate}
+}
+@keyframes d{to{stroke-dashoffset:0}}
+@keyframes f{to{opacity:1}}
+@keyframes s{0%,25%{transform:translateX(0)}75%,100%{transform:translateX(-150px)}}
+</style>
+<!-- grade de prancheta -->
+<path class="g" d="M0 40h600M0 120h600M0 200h600M0 280h600M0 360h600M0 440h600M60 0v520M180 0v520M300 0v520M420 0v520M540 0v520"/>
+<!-- muro e piso -->
+<path class="dr a1 t2" pathLength="1" d="M20 400h560"/>
+<path class="dr a1 t1" pathLength="1" d="M20 408h560"/>
+<rect class="dr a1" pathLength="1" x="40" y="150" width="40" height="250"/>
+<rect class="dr a1" pathLength="1" x="520" y="150" width="40" height="250"/>
+<!-- trilho -->
+<path class="dr a2 c t3" pathLength="1" d="M60 398h480"/>
+<!-- portão (desliza) -->
+<g class="slide">
+ <rect class="dr a2 t2" pathLength="1" x="82" y="170" width="436" height="222"/>
+ <path class="dr a3" pathLength="1" d="M82 188h436M82 374h436"/>
+ <path class="dr a3 t1" pathLength="1" d="M106 188v186M130 188v186M154 188v186M178 188v186M202 188v186M226 188v186M250 188v186M274 188v186M298 188v186M322 188v186M346 188v186M370 188v186M394 188v186M418 188v186M442 188v186M466 188v186M490 188v186"/>
+ <circle class="dr a3" pathLength="1" cx="130" cy="394" r="6"/>
+ <circle class="dr a3" pathLength="1" cx="470" cy="394" r="6"/>
+</g>
+<!-- cotas -->
+<path class="dr a4 c t1" pathLength="1" d="M80 448h440M80 440v16M520 440v16"/>
+<path class="dr a4 c t1" pathLength="1" d="M582 170v222M574 170h16M574 392h16"/>
+<g class="fade">
+ <text x="270" y="472" class="tc">VÃO L</text>
+ <text x="560" y="290" class="tc" transform="rotate(-90 560 290)">ALTURA H</text>
+ <!-- carimbo -->
+ <path class="t1" d="M330 30h250v90H330zM330 60h250M330 90h250M460 60v60"/>
+ <text x="342" y="50" class="big">PORTÃO DE CORRER</text>
+ <text x="342" y="80">VISTA FRONTAL</text>
+ <text x="472" y="80">SOB MEDIDA</text>
+ <text x="342" y="110">SÃO JOSÉ DOS CAMPOS</text>
+ <text x="472" y="110">FOLHA 01</text>
+ <text x="40" y="140">MURO</text>
+</g>
+</svg>

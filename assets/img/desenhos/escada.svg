@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2}.t3{stroke-width:3}.d{stroke-dasharray:4 4}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path class="t1" d="M10 225h380"/>
+<path class="t3" d="M60 225L300 45M90 225L330 45"/>
+<path class="t2" d="M300 45h70M80 210h40M110 188h40M140 165h40M170 143h40M200 120h40M230 98h40M260 75h40M290 53h40"/>
+<path class="c d" d="M56 176L286 4"/>
+<path class="c t1" d="M350 45v180M346 45h8M346 225h8"/>
+<text x="358" y="140">ALTURA</text>
+<text x="20" y="30">ESCADA METÁLICA — LONGARINAS</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:2;stroke-linecap:square;stroke-linejoin:round}.c{stroke:#c8642e}.t1{stroke-width:1}.f{fill:#c8642e;fill-opacity:.25}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<path d="M60 160h160v20H60z"/>
+<path d="M220 60h20v120h-20z"/>
+<path class="c f" d="M220 160h-22l22-22z"/>
+<path class="c t1" d="M212 150l60-40h80"/>
+<path class="c t1" d="M302 110l-10-12h20z"/>
+<text x="280" y="134">FILETE</text>
+<text x="60" y="40">JUNTA EM T — SOLDA DE FILETE</text>
+</svg>

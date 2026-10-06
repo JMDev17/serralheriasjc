@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250"><style>*{fill:none;stroke:#8b9298;stroke-width:1.5;stroke-linecap:square}.c{stroke:#c8642e}.t1{stroke-width:1}.t2{stroke-width:2}.t3{stroke-width:2.5}text{fill:#8b9298;stroke:none;font:9px ui-monospace,Consolas,monospace;letter-spacing:1px}</style>
+<rect class="t1" x="100" y="40" width="200" height="170"/>
+<rect class="t3" x="110" y="50" width="180" height="150"/>
+<path class="t2" d="M135 50v150M160 50v150M185 50v150M210 50v150M235 50v150M260 50v150"/>
+<path d="M110 100h180M110 150h180"/>
+<path class="c" d="M110 50l-12-12M290 50l12-12M110 200l-12 12M290 200l12 12"/>
+<text x="100" y="30">GRADE DE JANELA</text>
+<text x="100" y="232">FIXAÇÃO NOS CANTOS</text>
+</svg>

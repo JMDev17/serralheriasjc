@@ -1,0 +1,8 @@
+# [PREENCHER] Trocar o domínio abaixo pelo domínio real antes de publicar.
+User-agent: *
+Allow: /
+Disallow: /docs/
+Disallow: /projetos/_modelo-projeto.html
+Disallow: /dados/_modelo-estudo.html
+
+Sitemap: https://www.seudominio.com.br/sitemap.xml
